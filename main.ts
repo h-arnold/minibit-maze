@@ -13,6 +13,12 @@ input.onButtonPressed(Button.A, function () {
     }
     left()
     forward()
+    for (let index = 0; index < 2; index++) {
+        right()
+    }
+    for (let index = 0; index < 4; index++) {
+        forward()
+    }
 })
 // Allows you to stop the mini bit if you need to.
 input.onButtonPressed(Button.B, function () {
